@@ -1,0 +1,22 @@
+#grid { width: 100%; }
+#grid .cell {
+  width: 10%;
+  float: left;
+}
+
+#grid .cell div {
+  border: 1px solid black;
+  margin: 1px;
+  padding: 1px;
+  text-align: center;
+}
+
+#grid .cell div.related { opacity: 0.3; }
+#grid .cell div.total,
+#grid .cell div.difference,
+#grid .cell div.selected { opacity: 1; }
+
+#grid .cell div.related { background-color: lightblue; }
+#grid .cell div.total { background-color: lightgreen; }
+#grid .cell div.difference { background-color: pink; }
+#grid .cell div.selected { background-color: lightblue; }
